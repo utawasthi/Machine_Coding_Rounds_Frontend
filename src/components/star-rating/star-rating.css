@@ -1,0 +1,33 @@
+body {
+  position : relative;
+  margin : 0;
+  height : 100vh;
+}
+
+.main-wrapper{
+  position : absolute;
+  top : 50%;
+  left : 50%;
+  transform : translate(-50% , -50%);
+  /* border : 2px solid crimson; */
+  padding : 20px;
+}
+
+.star-component-wrapper{
+  border : 2px solid black;
+  display : flex;
+  justify-content: center;
+  gap : 15px;
+}
+
+.fa-star{
+  font-size: 2rem;
+  fill : white;
+  stroke : black;
+  stroke-width: 5px;
+  cursor : pointer;
+}
+
+/* .active{
+  fill : rgb(255, 234, 0);
+} */
